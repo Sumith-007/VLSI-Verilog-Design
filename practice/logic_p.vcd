@@ -1,0 +1,44 @@
+$date
+	Sun Mar 29 19:09:46 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module logic_p_tb $end
+$var wire 7 ! y [6:0] $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module uut $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 7 $ y [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111000 $
+0#
+0"
+b1111000 !
+$end
+#10
+b1110 !
+b1110 $
+1"
+#20
+b1001110 !
+b1001110 $
+1#
+0"
+#30
+b100011 !
+b100011 $
+1"
+#40

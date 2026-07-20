@@ -1,0 +1,290 @@
+$date
+	Wed Feb 25 22:37:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_tb $end
+$var wire 4 ! Result [3:0] $end
+$var wire 1 " Cout $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 3 % Sel [2:0] $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 4 ( B_inverted [3:0] $end
+$var wire 3 ) Sel [2:0] $end
+$var wire 4 * sub_result [3:0] $end
+$var wire 1 + sub_cout $end
+$var wire 4 , add_result [3:0] $end
+$var wire 1 - add_cout $end
+$var reg 1 " Cout $end
+$var reg 4 . Result [3:0] $end
+$scope module ADDER $end
+$var wire 4 / A [3:0] $end
+$var wire 4 0 B [3:0] $end
+$var wire 1 1 Cin $end
+$var wire 1 2 c3 $end
+$var wire 1 3 c2 $end
+$var wire 1 4 c1 $end
+$var wire 4 5 Sum [3:0] $end
+$var wire 1 - Cout $end
+$scope module FA0 $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 1 Cin $end
+$var wire 1 4 Cout $end
+$var wire 1 8 Sum $end
+$upscope $end
+$scope module FA1 $end
+$var wire 1 9 A $end
+$var wire 1 : B $end
+$var wire 1 4 Cin $end
+$var wire 1 3 Cout $end
+$var wire 1 ; Sum $end
+$upscope $end
+$scope module FA2 $end
+$var wire 1 < A $end
+$var wire 1 = B $end
+$var wire 1 3 Cin $end
+$var wire 1 2 Cout $end
+$var wire 1 > Sum $end
+$upscope $end
+$scope module FA3 $end
+$var wire 1 ? A $end
+$var wire 1 @ B $end
+$var wire 1 2 Cin $end
+$var wire 1 - Cout $end
+$var wire 1 A Sum $end
+$upscope $end
+$upscope $end
+$scope module SUBTRACTOR $end
+$var wire 4 B A [3:0] $end
+$var wire 4 C B [3:0] $end
+$var wire 1 D Cin $end
+$var wire 1 E c3 $end
+$var wire 1 F c2 $end
+$var wire 1 G c1 $end
+$var wire 4 H Sum [3:0] $end
+$var wire 1 + Cout $end
+$scope module FA0 $end
+$var wire 1 I A $end
+$var wire 1 J B $end
+$var wire 1 D Cin $end
+$var wire 1 G Cout $end
+$var wire 1 K Sum $end
+$upscope $end
+$scope module FA1 $end
+$var wire 1 L A $end
+$var wire 1 M B $end
+$var wire 1 G Cin $end
+$var wire 1 F Cout $end
+$var wire 1 N Sum $end
+$upscope $end
+$scope module FA2 $end
+$var wire 1 O A $end
+$var wire 1 P B $end
+$var wire 1 F Cin $end
+$var wire 1 E Cout $end
+$var wire 1 Q Sum $end
+$upscope $end
+$scope module FA3 $end
+$var wire 1 R A $end
+$var wire 1 S B $end
+$var wire 1 E Cin $end
+$var wire 1 + Cout $end
+$var wire 1 T Sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1T
+0S
+1R
+1Q
+0P
+0O
+1N
+1M
+1L
+0K
+1J
+0I
+b1110 H
+1G
+1F
+0E
+1D
+b11 C
+b1010 B
+0A
+1@
+1?
+1>
+1=
+0<
+1;
+0:
+19
+08
+07
+06
+b110 5
+04
+03
+02
+01
+b1100 0
+b1010 /
+b1000 .
+1-
+b110 ,
+0+
+b1110 *
+b0 )
+b11 (
+b1100 '
+b1010 &
+b0 %
+b1100 $
+b1010 #
+0"
+b1000 !
+$end
+#10000
+b1110 !
+b1110 .
+b1 %
+b1 )
+#20000
+b110 !
+b110 .
+b10 %
+b10 )
+#30000
+1A
+12
+0>
+13
+b1000 !
+b1000 .
+b1000 ,
+b1000 5
+0;
+14
+0-
+0K
+b1110 *
+b1110 H
+1T
+0J
+1S
+b1010 (
+b1010 C
+17
+0@
+16
+0?
+1I
+0R
+0"
+b11 %
+b11 )
+b101 $
+b101 '
+b101 0
+b11 #
+b11 &
+b11 /
+b11 B
+#40000
+02
+1>
+03
+1;
+0Q
+1"
+1K
+04
+0-
+0F
+1+
+18
+b1111 ,
+b1111 5
+1A
+1N
+b11 *
+b11 H
+0T
+1J
+0M
+b1001 (
+b1001 C
+07
+1:
+09
+1?
+0L
+1R
+b11 !
+b11 .
+b100 %
+b100 )
+b110 $
+b110 '
+b110 0
+b1001 #
+b1001 &
+b1001 /
+b1001 B
+#50000
+1E
+0"
+0G
+1F
+0+
+b1101 !
+b1101 .
+1K
+0N
+1Q
+b1101 *
+b1101 H
+1T
+0J
+1M
+1P
+0S
+b110 (
+b110 C
+17
+0:
+0=
+1@
+06
+19
+1<
+0?
+0I
+1L
+1O
+0R
+b1001 $
+b1001 '
+b1001 0
+b110 #
+b110 &
+b110 /
+b110 B
+#60000

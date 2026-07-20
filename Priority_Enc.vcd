@@ -1,0 +1,61 @@
+$date
+	Sat Feb 28 20:01:43 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Priority_Enc_tb $end
+$var wire 1 ! B $end
+$var wire 1 " A $end
+$var reg 1 # Y0 $end
+$var reg 1 $ Y1 $end
+$var reg 1 % Y2 $end
+$var reg 1 & Y3 $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 ! B $end
+$var wire 1 # Y0 $end
+$var wire 1 $ Y1 $end
+$var wire 1 % Y2 $end
+$var wire 1 & Y3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+1#
+0"
+0!
+$end
+#10000
+1!
+0#
+1$
+#20000
+0!
+1"
+0$
+1%
+#30000
+1!
+0%
+1&
+#40000
+0!
+1$
+1%
+0&
+#50000
+1!
+0$
+1&
+#60000
